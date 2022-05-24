@@ -15,7 +15,7 @@
     MVC Demo Page!!
 </h1>
 
-<a href="/showForm">Hello world Form</a>
+<a href="/hello/showForm">Hello world Form</a>
 
 </body>
 </html>
