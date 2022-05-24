@@ -16,7 +16,7 @@
 <h3>Hello World</h3>
 <br />
 
-Student Name : ${ param.studentName }
+Student Name : ${ message }
 
 </body>
 </html>

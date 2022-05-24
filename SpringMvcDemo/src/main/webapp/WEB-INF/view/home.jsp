@@ -12,8 +12,10 @@
 </head>
 <body>
 <h1>
-    Hi there!!
+    MVC Demo Page!!
 </h1>
+
+<a href="/showForm">Hello world Form</a>
 
 </body>
 </html>
