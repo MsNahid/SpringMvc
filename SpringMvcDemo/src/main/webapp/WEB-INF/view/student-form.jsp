@@ -26,7 +26,34 @@
 	
 	<br/>
 	
+	Country:
+	<form:select path="country">
+		<form:option value="BN" label="BANGLADESH"></form:option>
+		<form:option value="US" label="UNITED KINGDOM"></form:option>
+		<form:option value="USA" label="UNITED STATES"></form:option>
+		<form:option value="PAK" label="PAKISTAN"></form:option>
+	</form:select>
+	
+	<br/>
+	Favourite Programming Language:
+	<br/>
+	JAVA<form:radiobutton path="programmingLanguage" value="JAVA"></form:radiobutton>
+	Go<form:radiobutton path="programmingLanguage" value="GO"></form:radiobutton>
+	C#<form:radiobutton path="programmingLanguage" value="C#"></form:radiobutton>
+	RUBY<form:radiobutton path="programmingLanguage" value="RUBY"></form:radiobutton>
+	
+	<br/>
+	
+	Operating Systems Liked:
+	<br/>
+	Linux<form:checkbox path="operatingSystems" value="Linux"></form:checkbox>
+	Mac os<form:checkbox path="operatingSystems" value="IOS"></form:checkbox>
+	Windows<form:checkbox path="operatingSystems" value="WINDOWS"></form:checkbox>
+	
+	<br/>
+	
 	<input type="submit" value="submit">
+	
 	
 	<br/>
 

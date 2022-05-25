@@ -7,6 +7,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.rmi.MarshalledObject;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Map;
+
 @Controller
 @RequestMapping("/student")
 public class StudentController {
@@ -16,15 +21,22 @@ public class StudentController {
 		
 		Student student = new Student();
 		
-		student.setFirstName("moon");
+//		student.setFirstName("moon");
+//		student.populateCountryMap();
+//		Map<String, String> countryMap = student.getCountryMap();
+//
+//		System.out.println(Arrays.asList(countryMap));
+		
 		
 		model.addAttribute("student", student);
+//		model.addAttribute("countryOptions", countryMap);
 		
 		return "student-form";
 	}
 	
 	@RequestMapping("/processForm")
 	public String processForm(@ModelAttribute("student") Student theStudent){
+		
 		return "student-confirmation";
 	}
 }
