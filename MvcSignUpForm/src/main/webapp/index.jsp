@@ -1,5 +1,7 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Home Page</h2>
+
+<a href="/showSignUpForm">SignUp Form</a>
 </body>
 </html>
