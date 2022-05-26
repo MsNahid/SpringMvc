@@ -7,11 +7,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.rmi.MarshalledObject;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Map;
-
 @Controller
 @RequestMapping("/student")
 public class StudentController {
