@@ -27,14 +27,14 @@
 				           method="post" modelAttribute="signUpForm">
 					
 					<div class="form-group">
-						<label for="firstname" class="col-md-3 control-label">First
+						<label for="firstName" class="col-md-3 control-label">First
 							Name</label>
 						<div class="col-md-9">
 							<form:input path="firstName" cssClass="form-control"/>
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="lastname" class="col-md-3 control-label">Last
+						<label for="lastName" class="col-md-3 control-label">Last
 							Name</label>
 						<div class="col-md-9">
 							<form:input path="lastName" cssClass="form-control"/>
