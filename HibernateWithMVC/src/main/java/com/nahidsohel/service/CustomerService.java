@@ -1,10 +1,12 @@
-package com.nahidsohel.dao;
+package com.nahidsohel.service;
 
 import com.nahidsohel.entity.Customer;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-public interface CustomerDao {
+@Service
+public interface CustomerService {
 
     List<Customer> getCustomers();
 

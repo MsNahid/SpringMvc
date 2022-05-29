@@ -13,8 +13,7 @@
 
     <link href="<c:url value="/resources/css/style.css" />"
           rel="stylesheet">
-<%--    <link href="<c:url value="/resources/css/add-customer-style.css" />"--%>
-<%--          rel="stylesheet">--%>
+
 
 </head>
 
@@ -29,6 +28,14 @@
 <div id="container">
 
     <div id="content">
+
+        <!-- put new button: Add Customer -->
+
+        <input type="button" value="Add Customer"
+               onclick="window.location.href='showFormForAdd'; return false;"
+               class="add-button"
+        />
+
 
         <!--  add our html table here -->
 
