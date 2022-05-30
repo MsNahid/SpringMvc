@@ -48,6 +48,15 @@ public class CustomerDaoImpl implements CustomerDao {
         return theCustomer;
     }
 
+    @Override
+    public void deleteCustomer(int theId) {
+
+        Session currentSession = sessionFactory.getCurrentSession();
+
+        Customer customer = currentSession.get(Customer.class, theId);
+
+        currentSession.delete(customer);
+    }
 
 
 }
