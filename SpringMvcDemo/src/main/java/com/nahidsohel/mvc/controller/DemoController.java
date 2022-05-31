@@ -10,4 +10,9 @@ public class DemoController {
 	public String getHome(){
 		return "home";
 	}
+
+//	@GetMapping("/sohel")
+//	public String getSohel(){
+//		return "moon";
+//	}
 }
